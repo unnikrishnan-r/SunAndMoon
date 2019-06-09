@@ -11,43 +11,53 @@
 
 <body>
 
-        <button id="button5am">5 am</button>
+    <div class="container">
 
-    <div class="sunrise">
+
+        <!--IMPORTANT: CSS is using the adjacent selector method to 
+    set styles for element B based on state of element A
+    This will work only when both sets (buttons and circles belong to same parent)
+    If you try to define a div just to contain buttons, the style property will stop working
+-->
+        <button id="button5am">5 am</button>
+        <button id="button12noon">12 noon</button>
+        <button id="button8pm">8pm</button>
+        <button id="button9pm">9pm</button>
+
+
+        <div class="sunrise">
             <p>Sun Rises at 5am in the East!!!</p>
         </div>
 
-        <!--
+        <div class="sunatnoon">
+            <p>Sun is above your head!!!</p>
+        </div>
 
-    <div class="buttonclass">
-        <button id="button12noon">12 noon</button>
+        <div class="sunset">
+            <p>Sun sets at 8pm in the West</p>
+        </div>
+
+        <div class="moonrises">
+            <p>When moon rises you go to bed!!!</p>
+        </div>
+
+        <div class="description">
+
+            <h2> How does this work?</h2>
+            <p class="text"> Hover over each timebox to see how Sun or Moon would behave at that time.<br>
+                Has been developed using HTML and CSS only;
+                Key CSS properties in place: <br>
+                1. <a
+                    href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-a-graphic-using-css"
+                    target="_blank">Create
+                    a graphic using CSS</a> <br>
+                2. <a
+                    href="https://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling"
+                    target="_blank">Change style of 1 element based on state of another</a>
+            </p>
+
+        </div>
     </div>
-
-    <div class="buttonclass">
-        <button id="button8pm">8pm</button>
-    </div>
-
-    <div class="buttonclass">
-        <button id="button9pm">9pm</button>
-    </div>
-
-
-    <div class="circles" id="sunatnoon">
-        <p>Sun is above your head!!!</p>
-    </div>
-
-    <div class="circles" id="sunset">
-        <p>Sun Sets at 8pm in the West!!!</p>
-    </div>
-
-    <div class="circles" id="moonrise">
-        <p>When moon comes, you go to bed!!!</p>
-    </div>
-
-
-        -->
-
-
 
 
 
