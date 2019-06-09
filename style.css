@@ -1,0 +1,74 @@
+.sunrise {
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: dotted 10px gold;
+    text-align: center;
+    float: left;
+    background-color: rgb(255, 217, 0);
+    position: relative;
+    left: 0%;
+    visibility: hidden
+}
+
+#button5am {
+    clear: both;
+    font-size: 15px;
+    width: 100px;
+    padding: 20px;
+    float: left;
+    position: fixed;
+    bottom: 50%;
+    left: 2%;
+    background-color: teal;
+}
+
+#button5am:hover~.sunrise {
+    visibility: visible;
+}
+
+/*
+#sunatnoon {
+    clear: right;
+    background-color: #ecbd2c;
+    position: relative;
+    left: 15%;
+
+}
+
+#sunset {
+    clear: right;
+    background-color: orange;
+    position: relative;
+    left: 30%;
+
+}
+
+#moonrise {
+    clear: right;
+    background-color:transparent;
+    position: relative;
+    left: 45%;
+    box-shadow: 25px 10px 0 0 greenyellow;
+    border:none;
+
+}
+
+
+#button12noon {
+    position: fixed;
+    left: 28%;
+}
+
+#button8pm {
+    position: fixed;
+    left: 55%;
+}
+
+#button9pm {
+    position: fixed;
+    left: 85%;
+}
+
+*/
